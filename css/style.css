@@ -1,0 +1,153 @@
+html {
+	height:100%;
+	}
+
+body {
+	height:100%;
+	background-color:#111;
+	margin:0px;
+	}
+
+#wrapper {
+	width:930px;
+	margin:auto;
+	position:relative;
+	box-shadow:0px 3px 8px 5px #000;
+	-moz-box-shadow:0px 3px 8px 5px #000;
+	-webkit-box-shadow:0px 3px 8px 5px #000;
+	}
+
+#main-container {
+	background-color:rgb(211,211,211);
+	width:100%;
+	position:relative;
+	top:5%;
+	margin-bottom:5%;
+	}
+
+#headerText {
+	background:#111;
+	color:#fff;
+	font-size:36px;
+	font-family:sans-serif;
+	font-weight:100;
+	position:absolute;
+	top:87px;
+	left:5%;
+	padding:12px;
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
+	}
+
+#header {
+	width:100%;
+	height:200px;
+	overflow:hidden;
+	margin-bottom:10px;
+	box-shadow:0px 0px 5px 3px #000;
+	-moz-box-shadow:0px 0px 5px 3px #000;
+	-webkit-box-shadow: 0px 0x 5px 3px #000;
+	}
+
+#header-bg {
+	width:100%;
+	}
+
+#logo {
+	background:url(http://www.cyaninc.com/static/cms_files/img/cyan_logo_home.jpeg) top left no-repeat;
+	width:100%;
+	height:90px;
+	background-color:#000;
+	box-shadow:0px 3px 8px 2px #000;
+	position:absolute;
+	top:0px;
+	}
+
+#tile-area {
+	width:100%;
+	height:auto;
+	text-align:center;
+	}
+
+.textContainer {
+	position:absolute;
+	top:9px;
+	width:260px;
+	height:82px;
+	}
+
+.tile {
+	box-shadow:0px 2px 9px 4px #888;
+	-moz-box-shadow:0px 2px 9px 4px #888;
+	-webkit-box-shadow: 0px 1px 9px 4px #888;
+	font-family:sans-serif;
+	color:#fff;
+	background-color:#e0e0e0;
+	border-radius:9px;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	display:inline-block;
+	padding:8px;
+	margin:8px;
+	width:260px;
+	height:320px;
+	position:relative;
+	vertical-align:middle;
+	}
+
+.tile .imageContainer {
+	position:relative;
+	margin:auto;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	border-radius:9px;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	background-color:#fff;
+	}
+
+.tile img {	
+	height:320px;
+	}
+
+.tile .itemTitle {
+	position:absolute;
+	top:0px;
+	width:100%;
+	font-weight:bold;
+	font-size:20px;
+	padding:6px 6px 0px 6px;
+	border-top-left-radius:9px;
+	border-top-right-radius:9px;
+	-moz-border-top-left-radius:9px;
+	-moz-border-top-right-radius:9px;
+	-webkit-border-top-left-radius:9px;
+	-webkit-border-top-right-radius:9px;
+	background-color:#111;
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
+	text-align:left;
+	}
+
+.tile .itemDescription {
+	width:100%;
+	background-color:#111;
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
+	text-align:left;
+	position:absolute;
+	top:30px;
+	font-size:18px;
+	z-index:3;
+	padding:0px 6px 6px 6px;
+	text-align:left;
+	}
+
+.footer {
+	clear:both;
+	position:relative;
+	}

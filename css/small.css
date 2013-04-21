@@ -1,0 +1,42 @@
+@media only screen and (max-width: 550px) {
+		#wrapper {
+			width:100%;
+			margin:0px;
+			padding:0px;
+			}
+
+		#header-bg {
+			height:100%;
+			}
+
+		#headerText {
+			width:96%;
+			padding:2%;
+			left:0px;
+			}
+		
+		.tile {
+			width:100%;
+			margin:10px 0px 10px 0px;
+			padding:0px;
+			height:250px;
+			}
+
+		.tile .image {
+			width:100%;
+			min-height:100%;
+			height:auto;
+			}
+
+		.tile .itemTitle {
+			top:0px;
+			width:98%;
+			padding:1% 1% 0px 1%;
+			}
+		
+		.tile .itemDescription {
+			top:27px;
+			width:98%;
+			padding:0px 1% 1% 1%;
+			}
+	}
